@@ -1,13 +1,13 @@
 {% set name = "sphinx-proof" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx-proof-{{ version }}.tar.gz
-  sha256: db938da1ea18880f80f0e979cb895604a490beff3e8f3dd1945d4997451b373b
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sphinx-proof-{{ version }}.tar.gz
+  sha256: 5f01801242c375d7e1151c39a60d9979f95dff5f46f28e6bba4eb516b0813aad
 
 build:
   noarch: python
